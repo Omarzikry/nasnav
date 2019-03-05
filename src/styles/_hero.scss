@@ -1,0 +1,44 @@
+.hero {
+    background-image: url("../assets/images/header-back.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 78em;
+    padding-top: 9em;
+    position: relative;
+    &__grid {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        position: relative;
+        &__text {
+            color: white;
+            padding-top: 4em;
+            h2 {
+                font-size: 5em;
+                font-weight: 300;
+                margin-bottom: 0;
+            }
+            p {
+                font-weight: 600;
+                font-size: 2em;
+            }
+            width: 90%;
+        }
+        &__img {
+            position: relative;
+            img {
+                position: absolute;
+                right: -3em;
+                top: 6em;
+                width: 86em;
+                z-index: 5;
+            }
+        }
+    }
+    &__wave {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}

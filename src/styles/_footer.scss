@@ -1,0 +1,24 @@
+.footer {
+    .bold {
+        font-size: 2rem;
+    }
+    .location,
+    .number,
+    .mail {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .position {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #2b7af3;
+    }
+    .footer-logo {
+        height: 4em;
+        margin: 1em 0;
+        margin-left: 5%;
+    }
+    @media only screen and (max-width: 768px) {
+        text-align: center
+    }
+}

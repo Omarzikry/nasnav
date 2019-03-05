@@ -1,0 +1,148 @@
+@media only screen and (min-width: 769px) {
+    .header {
+        &__toggleMenu {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    html {
+        font-size: 8px;
+    }
+    .hero {
+        height: 70em;
+        &__grid {
+            &__img {
+                img {
+                    position: absolute;
+                    right: -3em;
+                    top: 6em;
+                    width: 80em;
+                    z-index: 5;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    html {
+        font-size: 7px;
+    }
+    .hero {
+        height: 70em;
+        &__grid {
+            &__img {
+                img {
+                    position: absolute;
+                    right: -3em;
+                    top: 6em;
+                    width: 80em;
+                    z-index: 5;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 6px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        &__getStarted {
+            display: none;
+        }
+        &__logo {
+            height: 4rem;
+        }
+        &__toggleMenu {
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-top: 1rem;
+            color: white;
+            background: none;
+            border: none;
+            font-size: 4rem;
+        }
+        nav {
+            flex-direction: column;
+            background-color: $blue;
+            margin: 0 auto;
+            max-height: 0px;
+            width: 100%;
+            margin-top: 1em;
+            a {
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 3rem;
+            }
+        }
+    }
+    .hero {
+        padding-top: 20em;
+        height: 85em;
+        &__grid {
+            width: 95%;
+            &__img {
+                img {
+                    position: absolute;
+                    right: -3em;
+                    top: 3em;
+                    width: 75em;
+                    z-index: 5;
+                }
+            }
+        }
+    }
+    .show-case {
+        text-align: center;
+        &__title {
+            width: 80%;
+        }
+        &__subtitle {
+            width: 85%;
+        }
+        &__grid {
+            &__text {
+                &__title {
+                    padding-right: 0;
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                &__subtitle {
+                    padding-right: 0;
+                }
+                &__description {
+                    padding-right: 0;
+                    width: 70%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    html {
+        font-size: 5px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero {
+        font-size: 4px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .hero {
+        font-size: 3px;
+    }
+}

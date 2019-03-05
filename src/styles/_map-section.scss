@@ -1,0 +1,16 @@
+.map-section {
+    &__text {
+        text-align: center;
+        h4,
+        p {
+            font-size: 1.7rem;
+            font-weight: 300;
+        }
+        h2 {
+            font-size: 4.5rem;
+        }
+    }
+    img {
+        width: 100%
+    }
+}
