@@ -11,6 +11,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
+  "homepage": "https://omar-zikry.bitbucket.io/nasnav/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

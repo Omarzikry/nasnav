@@ -7,7 +7,7 @@ import MapSection from "./components/MapSection";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={"/nasnav"}>
         <div className="App">
           <Layout>
             <Hero />
